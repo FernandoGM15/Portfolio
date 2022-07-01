@@ -1,0 +1,16 @@
+
+.card-networks{
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.MuiBottomNavigation-root {
+    background-color: #19191A !important;
+}
+
+.MuiButtonBase-root {
+    color: white !important;
+}

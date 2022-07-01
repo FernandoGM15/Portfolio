@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=VT323&display=swap');
+
+.profile{
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid white
+}
+
+.cursor-text{
+    margin-left: 3px;
+    width: 2.5px;
+}
+
+.card-biography{
+    background-color: #19191A !important;
+    color:white !important;
+}
