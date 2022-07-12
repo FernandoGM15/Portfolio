@@ -21,7 +21,7 @@ const Intro = () => {
     }, [controls, inView]);
 
     return (
-        <motion.div ref={ref} animate={controls} variants={FadeIn}>
+        <motion.div ref={ref} initial="hidden" animate={controls} variants={FadeIn}>
             <Grid container style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "85vh", marginBottom: "10vh" }}>
                 <Grid item xs={10} md={4} lg={4}>
                     <img

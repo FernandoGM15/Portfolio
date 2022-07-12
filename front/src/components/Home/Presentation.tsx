@@ -27,7 +27,8 @@ const Presentation = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    height: "100vh"
+                    height: "85vh",
+                    marginBottom: "10vh"
                 }}
             >
                 <Grid item xs={12} lg={10} >

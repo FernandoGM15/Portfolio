@@ -23,10 +23,9 @@ const Skills = () => {
 
         <motion.div ref={ref} initial="hidden" animate={controls} variants={FadeIn}>
             <Box style={{ justifyContent: "center", display: "flex", alignItems: "center", height:"100vh", margin:"5rem;"}}>
-                <Grid container xs={10} lg={8}>
+                <Grid container xs={12} lg={10} columnSpacing={6}>
                     <Grid item xs={12}>
                         <Typography fontSize={"50px"} lineHeight={"75px"} textAlign={"center"}>Skills</Typography>
-                        <hr />
                     </Grid>
                     <Grid item xs={12} lg={6}>
                         <Typography fontSize={"35px"} lineHeight={"40px"} textAlign="center">Languages</Typography>
@@ -50,6 +49,62 @@ const Skills = () => {
                         <Box style={{display: "flex",alignItems:"center"}}>
                             <Typography display="inline" fontSize={"25px"} width="50%" lineHeight={"40px"}>C#</Typography>
                             <Box width="50%" justifyContent="space-between" display="flex" ><Star /><Star /><Star /><StarOutline/><StarOutline/></Box>
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12} lg={6}>
+                        <Typography fontSize={"35px"} lineHeight={"40px"} textAlign="center">Frameworks</Typography>
+                        <hr />
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography width="50%" display="inline" fontSize={"25px"} lineHeight={"40px"}>Laravel</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex"><Star /><Star /><Star /><Star /><StarHalf/></Box>
+                        </Box>
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography display="inline" fontSize={"25px"} width="50%" lineHeight={"40px"}>React</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex" ><Star /><Star /><Star /><StarOutline/><StarOutline/></Box>
+                        </Box>
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography display="inline" fontSize={"25px"} width="50%" lineHeight={"40px"}>Angular</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex" ><Star /><Star /><Star /><StarOutline/><StarOutline/></Box>
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12} lg={6}>
+                        <Typography fontSize={"35px"} lineHeight={"40px"} textAlign="center">Tools</Typography>
+                        <hr />
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography width="50%" display="inline" fontSize={"25px"} lineHeight={"40px"}>Linux</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex"><Star /><Star /><Star /><Star /><StarHalf /></Box>
+                        </Box>
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography display="inline" fontSize={"25px"} width="50%" lineHeight={"40px"}>Docker</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex" ><Star /><Star /><Star /><StarHalf /><StarOutline/></Box>
+                        </Box>
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography display="inline" fontSize={"25px"} width="50%" lineHeight={"40px"}>Git</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex" ><Star /><Star /><Star /><Star /><StarHalf/></Box>
+                        </Box>
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography display="inline" fontSize={"25px"} width="50%" lineHeight={"40px"}>OOP</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex" ><Star /><Star /><Star /><Star /><StarHalf/></Box>
+                        </Box>
+                    </Grid>
+                    <Grid item xs={12} lg={6}>
+                        <Typography fontSize={"35px"} lineHeight={"40px"} textAlign="center">Databases</Typography>
+                        <hr />
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography width="50%" display="inline" fontSize={"25px"} lineHeight={"40px"}>MySql</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex"><Star /><Star /><Star /><Star /><StarHalf/></Box>
+                        </Box>
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography display="inline" fontSize={"25px"} width="50%" lineHeight={"40px"}>MongoDB</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex" ><Star /><Star /><Star /><StarOutline/><StarOutline/></Box>
+                        </Box>
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography display="inline" fontSize={"25px"} width="50%" lineHeight={"40px"}>Firebird</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex" ><Star /><Star /><Star /><Star/><StarOutline/></Box>
+                        </Box>
+                        <Box style={{display: "flex",alignItems:"center"}}>
+                            <Typography display="inline" fontSize={"25px"} width="50%" lineHeight={"40px"}>PostgreSQL</Typography>
+                            <Box width="50%" justifyContent="space-between" display="flex" ><Star /><Star /><Star /><Star/><StarOutline/></Box>
                         </Box>
                     </Grid>
                 </Grid>
